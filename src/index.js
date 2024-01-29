@@ -1,13 +1,24 @@
 import React from 'react';
+import Footer from './Components/Footer';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import Addbusiness from './Components/Addbusiness';
+// import './index.css';
+  import Home from './home';
+  import Header from './Header';
+// import './home.css'
+import contacts from './contacts';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Contacts from './contacts';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+    <Addbusiness/>
+    <Footer/>
+    
+    
   </React.StrictMode>
 );
 

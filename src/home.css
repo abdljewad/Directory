@@ -1,0 +1,51 @@
+.Home {
+    text-align: center;
+   }
+   
+   .App-header {
+    background-color: #282c34;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+   }
+   
+   .App-header ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   
+   .App-header li {
+    display: inline;
+    margin-right: 1em;
+   }
+   
+   .App-header li a {
+    color: white;
+    text-decoration: none;
+   }
+   
+   .directory-list {
+    padding: 2em;
+   }
+   
+   .directory-list h2 {
+    font-size: 1.5em;
+   }
+   
+   .directory-list ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   
+   .directory-list li {
+    margin-bottom: 1em;
+   }
+   
+   .directory-list li a {
+    text-decoration: none;
+    color: #282c34;
+   }
